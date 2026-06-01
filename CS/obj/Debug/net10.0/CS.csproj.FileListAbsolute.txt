@@ -1,0 +1,15 @@
+/Users/m1pro/Developer/personal/CS/bin/Debug/net10.0/CS
+/Users/m1pro/Developer/personal/CS/bin/Debug/net10.0/CS.deps.json
+/Users/m1pro/Developer/personal/CS/bin/Debug/net10.0/CS.runtimeconfig.json
+/Users/m1pro/Developer/personal/CS/bin/Debug/net10.0/CS.dll
+/Users/m1pro/Developer/personal/CS/bin/Debug/net10.0/CS.pdb
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.AssemblyInfoInputs.cache
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.AssemblyInfo.cs
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.csproj.CoreCompileInputs.cache
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.sourcelink.json
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.dll
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/refint/CS.dll
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.pdb
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/CS.genruntimeconfig.cache
+/Users/m1pro/Developer/personal/CS/obj/Debug/net10.0/ref/CS.dll
