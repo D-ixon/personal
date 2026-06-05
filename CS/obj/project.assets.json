@@ -8,19 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/Users/m1pro/.nuget/packages/": {}
+    "C:\\Users\\Dixon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/m1pro/Developer/personal/CS/CS.csproj",
+      "projectUniqueName": "c:\\Users\\Dixon\\Documents\\Developer\\personal\\CS\\CS.csproj",
       "projectName": "CS",
-      "projectPath": "/Users/m1pro/Developer/personal/CS/CS.csproj",
-      "packagesPath": "/Users/m1pro/.nuget/packages/",
-      "outputPath": "/Users/m1pro/Developer/personal/CS/obj/",
+      "projectPath": "c:\\Users\\Dixon\\Documents\\Developer\\personal\\CS\\CS.csproj",
+      "packagesPath": "C:\\Users\\Dixon\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Dixon\\Documents\\Developer\\personal\\CS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/m1pro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Dixon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -67,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
