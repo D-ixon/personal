@@ -1,4 +1,4 @@
-from ursina import *
+from ursina import * 
 import numpy as np
 
 app = Ursina()
@@ -28,23 +28,23 @@ landscape = Entity(model=Mesh(vertices=verts, colors=cols, mode='line'), scale=2
 
 # 2. The Optimizer "Ball" 
 # Starting from a high peak to traverse more zones
-learner = Entity(model='sphere', color=color.yellow, scale=0.2, position=(2, 2, 2))
+learner = Entity(model='sphere', color=color.yellow, scale=0.2, position=(2, 0, 2))
 trail = Entity(model=Mesh(mode='line', thickness=2), color=color.white)
 path = []
 
 def update():
-    h = 0.01
+    h = 0.09
     curr_x, curr_z = learner.x / 2, learner.z / 2
     
     dx = (get_height(curr_x + h, curr_z) - get_height(curr_x - h, curr_z)) / (2 * h)
     dz = (get_height(curr_x, curr_z + h) - get_height(curr_x, curr_z - h)) / (2 * h)
     
     # REDUCED LEARNING RATE: 0.02 instead of 0.1 makes it significantly slower
-    lr = 0.02 
+    lr = 0.001
     
     learner.x -= dx * lr
     learner.z -= dz * lr
-    learner.y = get_height(learner.x/2, learner.z/2) + 0.1
+    learner.y = get_height(learner.x/2, learner.z/2) + 0.9
     
     path.append(learner.position)
     
