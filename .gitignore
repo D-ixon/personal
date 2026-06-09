@@ -1,3 +1,7 @@
 *.o
 *.out
 build/
+
+#Avoid tracking .NET build outputs
+**/bin/
+**/obj/
