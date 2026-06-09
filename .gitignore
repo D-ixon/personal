@@ -5,3 +5,7 @@ build/
 #Avoid tracking .NET build outputs
 **/bin/
 **/obj/
+
+#Avoid Tracking dix (a python venv saved in this repo on my windows PC)
+dix/
+
