@@ -8,4 +8,9 @@ build/
 
 #Avoid Tracking dix (a python venv saved in this repo on my windows PC)
 dix/
+**/venv/
+**/env/
+
+
+
 
