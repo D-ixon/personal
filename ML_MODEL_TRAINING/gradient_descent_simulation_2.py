@@ -29,7 +29,7 @@ landscape = Entity(model=Mesh(vertices=verts, colors=cols, mode='line'), scale=2
 # 2. The Optimizer "Ball" 
 # Starting from a high peak to traverse more zones
 learner = Entity(model='sphere', color=color.yellow, scale=0.2, position=(2, 0, 2))
-trail = Entity(model=Mesh(mode='line', thickness=2), color=color.white)
+trail = Entity(model=Mesh(vertices=[(0,0,0), (0,0,0)], mode='line', thickness=2), color=color.white)
 path = []
 
 def update():
