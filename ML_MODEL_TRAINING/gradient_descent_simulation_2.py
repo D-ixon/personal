@@ -29,7 +29,8 @@ landscape = Entity(model=Mesh(vertices=verts, colors=cols, mode='line'), scale=2
 # 2. The Optimizer "Ball" 
 # Starting from a high peak to traverse more zones
 learner = Entity(model='sphere', color=color.yellow, scale=0.2, position=(2, 0, 2))
-trail = Entity(model=Mesh(vertices=[(0,0,0), (0,0,0)], mode='line', thickness=2), color=color.white)
+# Provide two dummy starting points so the line mesh doesn't crash on init
+trail = Entity(model=Mesh(vertices=[(0,0,0), (0,0,0)], mode='line', thickness=2), color=color.white) #changed to suite how macos handles line thickness
 path = []
 
 def update():
