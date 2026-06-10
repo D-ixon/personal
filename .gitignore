@@ -1,6 +1,8 @@
 *.o
 *.out
 build/
+**/build/
+dist/
 
 #Avoid tracking .NET build outputs
 **/bin/
@@ -10,6 +12,8 @@ build/
 dix/
 **/venv/
 **/env/
+
+
 
 
 
