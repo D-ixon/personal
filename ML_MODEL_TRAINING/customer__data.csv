@@ -1,0 +1,101 @@
+﻿Age,Income ($1000s),Education Level,Previous Purchases,Marital Status,Buy Product (Target)
+55,70,Master's,8,Married,Yes
+58,44,Master's,2,Widowed,No
+42,62,PhD,5,Married,Yes
+21,79,Master's,12,Single,No
+41,38,Master's,11,Divorced,Yes
+41,93,Bachelor's,12,Widowed,No
+30,65,High School,7,Married,Yes
+42,72,PhD,5,Divorced,No
+33,104,High School,5,Divorced,Yes
+26,79,PhD,6,Divorced,No
+45,68,Master's,14,Divorced,Yes
+27,115,PhD,9,Single,No
+46,115,PhD,11,Single,No
+23,45,High School,6,Widowed,Yes
+30,93,High School,9,Married,Yes
+34,33,PhD,13,Married,Yes
+44,84,Bachelor's,4,Single,No
+59,101,Bachelor's,12,Divorced,No
+33,82,Bachelor's,7,Divorced,No
+35,113,Bachelor's,12,Divorced,No
+50,43,Master's,0,Married,Yes
+49,48,High School,12,Widowed,No
+55,108,PhD,8,Divorced,Yes
+44,116,Bachelor's,3,Married,Yes
+58,75,PhD,0,Married,No
+41,79,PhD,1,Widowed,Yes
+41,46,High School,5,Married,Yes
+47,101,High School,9,Married,No
+30,77,Master's,12,Single,No
+20,87,Master's,3,Single,Yes
+52,104,Bachelor's,12,Divorced,Yes
+53,70,High School,12,Single,No
+23,45,Master's,7,Single,No
+59,64,Master's,6,Divorced,Yes
+23,109,Bachelor's,5,Widowed,Yes
+45,105,Master's,3,Divorced,Yes
+49,93,Bachelor's,1,Married,No
+35,45,High School,11,Single,No
+24,62,Bachelor's,9,Divorced,Yes
+45,39,High School,5,Widowed,Yes
+37,119,Bachelor's,2,Divorced,No
+53,94,Master's,5,Single,Yes
+35,78,High School,13,Single,No
+55,62,High School,7,Divorced,Yes
+58,65,Bachelor's,1,Widowed,No
+53,113,Master's,10,Single,Yes
+52,54,High School,9,Married,Yes
+49,67,High School,13,Widowed,Yes
+30,43,Master's,7,Widowed,No
+33,101,Bachelor's,7,Divorced,No
+56,45,High School,14,Married,Yes
+24,72,Master's,11,Widowed,Yes
+37,88,PhD,13,Divorced,Yes
+53,65,High School,4,Widowed,Yes
+37,96,Bachelor's,14,Single,No
+45,51,Bachelor's,9,Widowed,No
+29,37,High School,5,Widowed,No
+36,30,PhD,9,Widowed,No
+57,60,PhD,7,Widowed,No
+26,34,Bachelor's,4,Widowed,Yes
+46,73,High School,8,Single,No
+32,97,High School,0,Married,No
+55,99,PhD,13,Divorced,Yes
+42,112,Bachelor's,11,Single,Yes
+52,94,Bachelor's,2,Widowed,No
+32,33,Bachelor's,10,Widowed,No
+36,53,Master's,5,Single,No
+51,62,Bachelor's,1,Widowed,No
+59,77,High School,14,Divorced,No
+28,57,High School,0,Single,No
+29,103,Master's,14,Single,Yes
+39,94,Master's,3,Widowed,No
+20,107,High School,4,Widowed,Yes
+47,107,PhD,5,Married,Yes
+49,74,Master's,2,Widowed,No
+33,45,Master's,12,Single,Yes
+20,55,High School,7,Divorced,No
+23,36,High School,3,Single,No
+59,111,Bachelor's,11,Single,No
+57,61,Bachelor's,9,Single,Yes
+23,58,High School,7,Married,Yes
+52,95,PhD,8,Divorced,Yes
+51,73,Bachelor's,13,Widowed,Yes
+53,40,High School,1,Widowed,No
+20,82,PhD,13,Divorced,No
+44,35,PhD,2,Divorced,No
+55,98,Bachelor's,6,Married,Yes
+28,37,Bachelor's,13,Married,Yes
+31,96,PhD,13,Married,Yes
+53,49,PhD,3,Married,No
+53,111,Bachelor's,7,Divorced,Yes
+44,70,Master's,14,Single,No
+21,30,High School,4,Single,Yes
+22,65,High School,5,Divorced,Yes
+42,71,High School,9,Single,No
+22,68,High School,3,Married,No
+24,114,PhD,2,Divorced,Yes
+50,82,PhD,1,Single,No
+39,65,PhD,1,Married,No
+26,103,Bachelor's,3,Widowed,No
