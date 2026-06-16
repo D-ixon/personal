@@ -5,8 +5,8 @@ X = np.array([1, 2, 3])
 y = np.array([3, 5, 7])
 
 # this is our initial guesses for as parameters, theta 0 is the intercept or the bias term.
-theta0 = 1
-theta1 = 2
+theta0 = 0
+theta1 = 0
 
 learning_rate = 0.1
 epochs = 100
