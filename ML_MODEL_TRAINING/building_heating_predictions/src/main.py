@@ -1,19 +1,30 @@
 import numpy as np
 from load_data import train_df, test_df
 from preprocess import preprocess_data
-from train_model import train_model as train_model 
+from train_model import train_model
+from evaluate import evaluate
+from predict import predict
 
-X_train, X_test, y_train = preprocess_data(train_df, test_df)
 
-m_test = X_test.shape[0]
-X_test_biased = np.c_[np.ones(m_test), X_test]
+X_train, X_test, y_train, scaler = preprocess_data(train_df, test_df)
 
-m = X_train.shape[0]
-X_train_biased = np.c_[np.ones(m), X_train]
 
-alpha = 0.01 
+X_train_biased = np.c_[np.ones(X_train.shape[0]), X_train]
+X_test_biased = np.c_[np.ones(X_test.shape[0]), X_test]
+
+
+alpha = 0.01
 iterations = 1000
+
 theta, loss_history = train_model(X_train_biased, y_train, alpha, iterations)
 
 print("Training complete!")
 print("Final Weights (Theta):", theta)
+
+rmse, _ = evaluate(X_train_biased, y_train, theta)
+print("Training RMSE:", rmse)
+
+test_predictions = predict(X_test_biased, theta)
+
+print("Test predictions (first 10):")
+print(test_predictions[:10])
