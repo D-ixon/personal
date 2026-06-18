@@ -1,14 +1,14 @@
 from sklearn.preprocessing import StandardScaler
-from load_data import train, test
+from load_data import train_df, test_df
 import pandas as pds
 
 
 def preprocess_data(train, test):
 
-    X = train.drop(columns=['Y1', 'ID'], axis=1)
-    y = train['Y1']
+    X = train_df.drop(columns=['Y1', 'ID'], axis=1)
+    y = train_df['Y1']
     
-    X_test = test.drop(columns=['ID'], axis=1)
+    X_test = test_df.drop(columns=['ID'], axis=1)
     
     scaler = StandardScaler()
     
