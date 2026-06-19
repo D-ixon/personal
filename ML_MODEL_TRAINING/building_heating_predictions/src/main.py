@@ -26,17 +26,15 @@ results_df = pds.DataFrame({
 })
 
 results_df.to_csv('final_predictions.csv', index=False)
-print("Final predictions saved to final_predictions.csv")
+print("\n Final predictions saved to final_predictions.csv")
 
-print("Training complete!")
-print ("                  ")
-print("Final Weights (Theta):", theta)
-print("                    ")
+print("\n Training complete!")
+print("\n Final Weights (Theta):", theta)
+
 rmse, _ = evaluate(X_train_biased, y_train, theta)
-print("Training RMSE:", rmse)
+print("\n Training RMSE:", rmse)
 
 test_predictions = predict(X_test_biased, theta)
-print("                    ")
-print("Test predictions (first 10):")
-print("                    ")
-print(test_predictions[:10])
+print("\n Test predictions (first 10):")
+
+print("\n", test_predictions[:10], "\n\n")
