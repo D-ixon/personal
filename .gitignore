@@ -13,7 +13,9 @@ dix/
 **/venv/
 **/env/
 
-
+#Avoid tracking pycache
+**/__pycache__/
+**/*.pyc
 
 
 
