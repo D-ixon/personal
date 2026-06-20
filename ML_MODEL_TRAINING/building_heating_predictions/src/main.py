@@ -12,7 +12,7 @@ X_train_biased = np.c_[np.ones(X_train.shape[0]), X_train]
 X_test_biased = np.c_[np.ones(X_test.shape[0]), X_test]
 
 alpha = 0.01
-iterations = 1000
+iterations = 10000
 
 theta, loss_history = train_model(X_train_biased, y_train, alpha, iterations)
 
