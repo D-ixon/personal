@@ -20,4 +20,4 @@ def train_model(X, y, alpha, iterations):
         
     return theta, loss_history
 
-print(" DEBUG: train_model.py was loaded successfully ")
+print("\n DEBUG: train_model.py was loaded successfully ")
