@@ -13,7 +13,7 @@ def grad(x):
 x = 8
 
 # Learning rate
-alpha = 0.1
+alpha = 1
 
 # Store history
 x_history = [x]
