@@ -4,20 +4,30 @@ build/
 **/build/
 dist/
 
-#Avoid tracking .NET build outputs
+# Avoid tracking .NET build outputs
 **/bin/
 **/obj/
 
-#Avoid Tracking dix (a python venv saved in this repo on my windows PC)
+# Avoid Tracking dix (a python venv saved in this repo on my windows PC)
 dix/
 **/venv/
 **/env/
 
-#Avoid tracking pycache
+# Avoid tracking pycache
 **/__pycache__/
 **/*.pyc
 **/*.pyo
 
+# visula Studio
+.vs/
+.vscode/
 
+# build results
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
 
+# OS generated files
+.DS_Store
+Thumbs.db
 
