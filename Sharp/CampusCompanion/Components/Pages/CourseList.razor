@@ -1,0 +1,19 @@
+@page "/courses"
+@using CampusCompanion.Models
+
+<h1>Course List</h1>
+
+@foreach (var course in myCourses)
+{
+    // Here we "pass" the course object into the component
+    <CourseCard CourseDetails="course" />
+}
+
+@code {
+    private List<Course> myCourses = new()
+    {
+        new Course("ENG101", "Introduction to Engineering", 3),
+        new Course("CS202", "Data Structures", 4),
+        new Course("MATH301", "Discrete Math", 3)
+    };
+}

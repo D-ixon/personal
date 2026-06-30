@@ -1,0 +1,11 @@
+<div class="card p-3 mb-2">
+    <h3>@CourseDetails.Code</h3>
+    <p>@CourseDetails.Title</p>
+    <span>Credits: @CourseDetails.Credits</span>
+</div>
+
+@code {
+    // This attribute tells Blazor: "Expect this data to be passed in from the parent"
+    [Parameter] 
+    public CampusCompanion.Models.Course CourseDetails { get; set; } = default!;
+}
