@@ -11,7 +11,7 @@ X_train, X_test, y_train, scaler = preprocess_data(train_df, test_df)
 X_train_biased = np.c_[np.ones(X_train.shape[0]), X_train]
 X_test_biased = np.c_[np.ones(X_test.shape[0]), X_test]
 
-alpha = 0.01
+alpha = 0.05
 iterations = 10000
 
 theta, loss_history = train_model(X_train_biased, y_train, alpha, iterations)
